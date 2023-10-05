@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./tablet.css" media="(min-width: 600px)">
+  <title>Mauricio Lozano Zarate</title>
+</head>
+<body>
+  <header>
+    <img src="./icons/menu.svg" alt="menu icon" class="menu-icon">
+    <nav class="mobile-menu inactive">
+      <div class="nav-logo">
+        <img src="./icons/mauricoLozanoLogoGray.png" alt="logo" id="logo-mauricio" >
+      </div>
+      <ul>
+        <img src="./icons/x.svg" alt="close sign" id="close-icon">
+        <li  class="nav-home nav-li"><a href="#target-section-home">Home</a></li>
+        <li class="nav-li"><a href="#target-section-projects">Projects</a></li>
+        <li class="nav-li"><a href="#target-section-abilities">Abilities</a></li>
+        <li class="nav-li"><a href="#target-section-contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="presentation" id="target-section-home">
+      <div class="presentation-card">
+        <div class="presentation-card-text">
+          <h2><span class="hand-icon"></span> Hello, I am</h2>
+          <h1>Mauricio Lozano</h1>
+          <h2 class="presentation-text-role">&lt;Web Developer/&gt;<h2>
+        </div>
+        <figure>
+          <img src="./icons/coding.svg" alt="coding image">
+        </figure>
+      </div>
+      <a href="./Mauricio_Lozano_Zárate_CV.pdf" download="Mauricio_Lozano_Zárate_CV.pdf" class="curriculum">
+        <button class="button-cv">
+          <img src="./icons/icon-blue.svg" alt="download icon">Download CV
+        </button>
+        </a>
+    </section>
+
+    <section class="projects" id="target-section-projects">
+      <div class="projects-title title">
+        <h1>Projects</h1>
+        <div class="line"></div>
+      </div>
+      <div class="project-container">
+        <!-- <div class="project-card">
+          <img src="./icons/card-top-img.png" alt="project image" class="project-image">
+          <div class="project-info">
+              <img src="./icons/Vector.svg" alt="eye">
+              <p>Project Title</p>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <aside id="project-detail" class="inactive">
+      <!-- <div class="project-detail-close">
+        <img src="./icons/x.svg" alt="close sign" id="close-icon">
+      </div>
+      <div class="project-detail-info">
+        <img src="./icons/coding.svg" alt="project image" class="project-detail-info-image">
+        <h1>Landing Page</h1>
+        <p>I collaborated with Lord Multitask to create a landing page for their monthly magazines, where more than 10,000 people have visited this page to read their magazine.</p>
+        <button class="button-repository"><img src="./icons/GitHub.svg" alt="github icon">Repository</button>
+        <button class="button-demo"><img src="./icons/www.svg" alt="network icon">Demo</button>
+      </div> -->
+    </aside>
+
+    <section class="abilities" id="target-section-abilities">
+      <div class="abilities-title title">
+        <h1>Abilities</h1>
+        <div class="line"></div>
+      </div>
+      <div class="skill-container">
+        <!-- <div class="skill-card">
+          <img src="./icons/html.svg" alt="HTML">
+        <h3>HTML 5</h3>
+        </div> -->
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="contact" id="target-section-contact">
+      <div class="contact-title title">
+        <h1>Contact</h1>
+        <div class="line"></div>
+      </div>
+      <div class="contact-container">
+        <div class="contact-button github">
+          <a href="https://github.com/Maulozano02" target="_blank">
+            <img src="./icons/GitHub.svg" alt="icono de github">
+          </a>
+        </div>
+        <div class="contact-button linkedin">
+          <a href="https://www.linkedin.com/in/mauricio-l-361b27137/" target="_blank">
+            <img src="./icons/Linkedin.svg" alt="icono de linkedin">
+          </a>
+        </div>
+        <div class="contact-button mail">
+          <a href="mailto:maulozano02@gmail.com" target="_blank">
+            <img src="./icons/outlook.svg" alt="icono de correo">
+          </a>
+        </div>
+      </div>
+  </footer>
+  <script src="./main.js"></script>
+</body>
+</html>
