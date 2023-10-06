@@ -56,6 +56,9 @@ body{
   align-items: center;
   padding: 25px 0;
 }
+.presentation-card figure{
+  width: 100%
+}
 .hand-icon{
   background-image: url('./animation/animation-mobile/waving-hand.svg');
   content: "";
