@@ -133,7 +133,7 @@ projectList.push({
   demo: 'https://github.com/Maulozano02/rapid-race'
 });
 projectList.push({
-  name: 'Clone Google',
+  name: 'Google clone',
   image: './icons/clonGoogle.png',
   description: 'I undertook the challenge of creating a replica of Google homepage using solely HTML and CSS as part of this project. It involved meticulously recreating the layout and design elements.',
   repository: 'https://github.com/Maulozano02/ClonInicioGoogle',
