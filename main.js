@@ -18,6 +18,10 @@ listItemsNav.addEventListener('click', closeProjectDetail);
 function toggleMobileMenu() {
   mobileMenu.classList.toggle('inactive');
   menuHamIcon.classList.toggle('inactive');
+  presentationSection.classList.toggle('inactive');
+  projectsSection.classList.toggle('inactive');
+  abilitiesSection.classList.toggle('inactive');
+  toggleContactSection(false);
 }
 
 function openProjectDetail(event){
@@ -229,3 +233,11 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     }
   });
 });
+
+function toggleContactSection(visible) {
+  if (visible) {
+    contactSection.style.display = 'flex'; // Show the contact section
+  } else {
+    contactSection.style.display = 'none'; // Hide the contact section
+  }
+}
