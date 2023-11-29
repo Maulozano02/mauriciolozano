@@ -11,17 +11,22 @@ const abilitiesSection = document.querySelector('.abilities');
 const contactSection = document.querySelector('.contact');
 const listItemsNav = document.querySelector('.nav-li');
 
-menuHamIcon.addEventListener('click', toggleMobileMenu);
-closeMenuIcon.addEventListener('click', toggleMobileMenu);
-listItemsNav.addEventListener('click', closeProjectDetail);
+menuHamIcon.addEventListener('click', OpenMobileMenu);
+closeMenuIcon.addEventListener('click', CloseMobileMenu);
+// listItemsNav.addEventListener('click', closeProjectDetail);
 
-function toggleMobileMenu() {
-  mobileMenu.classList.toggle('inactive');
-  menuHamIcon.classList.toggle('inactive');
-  presentationSection.classList.toggle('inactive');
-  projectsSection.classList.toggle('inactive');
-  abilitiesSection.classList.toggle('inactive');
-  toggleContactSection(false);
+function OpenMobileMenu() {
+  mobileMenu.classList.remove('inactive');
+  menuHamIcon.classList.add('inactive');
+  presentationSection.classList.remove('inactive');
+  projectsSection.classList.remove('inactive');
+  abilitiesSection.classList.remove('inactive');
+  toggleContactSection(true);
+}
+
+function CloseMobileMenu() {
+  mobileMenu.classList.add('inactive');
+  menuHamIcon.classList.remove('inactive');
 }
 
 function openProjectDetail(event){
