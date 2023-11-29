@@ -202,6 +202,22 @@ skillList.push({
   image: './icons/reactjs.svg',
   title: 'React'
 })
+skillList.push({
+  image: './icons/database.png',
+  title: 'SQL'
+})
+skillList.push({
+  image: './icons/python.png',
+  title: 'Python'
+})
+skillList.push({
+  image: './icons/c++.png',
+  title: 'C++'
+})
+// skillList.push({
+//   image: './icons/r.png',
+//   title: 'R'
+// })
 function renderSkills(arr){
   for(skill of arr){
     const skillCard = document.createElement('div');

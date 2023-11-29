@@ -144,17 +144,17 @@ button img{
   flex-wrap: wrap; /* Allow cards to wrap to the next line if necessary */
 }
 .project-card {
-  width: 250px;
+  width: 200px;
   margin: 13px;
   cursor: pointer;
 }
 .project-image {
-  width: 250px;
+  width: 200px;
   height: 110px;
   border-radius: 8px 8px 0px 0px;
 }
 .project-info{
-  width: 250px;
+  width: 200px;
   height: 25px;
   border-radius: 0 0 20px 20px;
   background: var(--grayblue);
@@ -164,7 +164,7 @@ button img{
   gap: 10px;
 }
 .project-info p{
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 }
 .abilities{
   margin: 25px;
@@ -187,6 +187,10 @@ button img{
   border-radius: 5px;
   font-size: 1.5rem;
   gap: 10px;
+}
+.skill-card img{
+  height: 40px;
+  width: 40px;
 }
 .contact{
   display: flex;
