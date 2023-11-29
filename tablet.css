@@ -86,14 +86,14 @@ button img{
   font-size: 4.5rem;
 }
 .project-card {
-  width: 300px; 
+  width: 350px; 
 }
 .project-image {
-  width: 300px;
-  height: 150px; 
+  width: 350px;
+  height: 185px; 
 }
 .project-info{
-  width: 300px;
+  width: 350px;
   height: 35px;
 }
 .project-info p{
