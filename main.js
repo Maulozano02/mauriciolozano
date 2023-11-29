@@ -13,7 +13,6 @@ const listItemsNav = document.querySelector('.nav-li');
 
 menuHamIcon.addEventListener('click', OpenMobileMenu);
 closeMenuIcon.addEventListener('click', CloseMobileMenu);
-// listItemsNav.addEventListener('click', closeProjectDetail);
 
 function OpenMobileMenu() {
   mobileMenu.classList.remove('inactive');
